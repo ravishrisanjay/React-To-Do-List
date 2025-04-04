@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #123458;
+}
+.totalcointainer{
+    margin:9%;
+    border: 2px solid #F1EFEC;
+    padding: 10px;
+}
+.heading{
+    color: #030303;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+.inputcontainer{
+    background-color: #D4C9BE;
+    text-align: center;
+    padding: 20px;
+}
+.status{
+    display: flex;
+    flex-direction:row;
+    border: 2px solid #F1EFEC;
+    padding: 20px;
+    position: relative;
+    align-items: flex-start; 
+    justify-content: space-between;
+    gap: 20px
+    ;
+    background-color: #F1EFEC;
+}
+.todo{
+    border: 2px solid #F1EFEC;
+    padding: 10px;
+    width: 50%; 
+
+}
+.complete{
+    border: 2px solid #F1EFEC;
+    padding: 10px;
+    width: 50%; 
+
+}
+.taskcontainer{
+    display: flex;
+    padding: 10px;
+    border: 5px solid #F1EFEC;
+    text-align:right;
+    align-items:end;
+    background-color: #D4C9BE;
+    
+    
+}
+.taskcontainer button{
+    height: 50px;
+    width: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    
+}
